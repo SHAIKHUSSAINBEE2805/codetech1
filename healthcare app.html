@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User-Centered Healthcare App</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-roboto bg-gray-100 text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white p-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Healthcare App</h1>
+      <nav>
+        <ul class="flex space-x-4">
+          <li><a class="hover:underline" href="#">Home</a></li>
+          <li><a class="hover:underline" href="#">Medications</a></li>
+          <li><a class="hover:underline" href="#">Appointments</a></li>
+          <li><a class="hover:underline" href="#">Support</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container mx-auto p-4">
+    <!-- Personalized Greeting -->
+    <section class="bg-white p-4 rounded shadow mb-8">
+      <h2 class="text-xl font-bold mb-4">Welcome, Nafeesa!</h2>
+      <p>Your health is our priority. Here's everything you need to manage your well-being.</p>
+    </section>
+
+    <!-- Quick Access Options -->
+    <section class="mb-8">
+      <h2 class="text-xl font-bold mb-4">Quick Access</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <button class="bg-blue-600 text-white p-4 rounded shadow hover:bg-blue-700">
+          <h3 class="font-semibold">Track Medications</h3>
+          <p>Manage prescriptions and reminders.</p>
+        </button>
+        <button class="bg-blue-600 text-white p-4 rounded shadow hover:bg-blue-700">
+          <h3 class="font-semibold">Upcoming Appointments</h3>
+          <p>View and schedule appointments.</p>
+        </button>
+        <button class="bg-blue-600 text-white p-4 rounded shadow hover:bg-blue-700">
+          <h3 class="font-semibold">Consult Doctors</h3>
+          <p>Chat or video call with experts.</p>
+        </button>
+      </div>
+    </section>
+
+    <!-- Medication List -->
+    <section class="mb-8">
+      <h2 class="text-xl font-bold mb-4">Your Medications</h2>
+      <div class="bg-white p-4 rounded shadow">
+        <ul>
+          <li class="flex items-center mb-4">
+            <span class="w-10 h-10 bg-blue-600 text-white flex justify-center items-center rounded-full mr-4">💊</span>
+            <div>
+              <h3 class="font-semibold">Medicine A</h3>
+              <p>Dosage: 50mg</p>
+            </div>
+          </li>
+          <li class="flex items-center mb-4">
+            <span class="w-10 h-10 bg-blue-600 text-white flex justify-center items-center rounded-full mr-4">💊</span>
+            <div>
+              <h3 class="font-semibold">Medicine B</h3>
+              <p>Dosage: 100mg</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Appointment List -->
+    <section class="mb-8">
+      <h2 class="text-xl font-bold mb-4">Upcoming Appointments</h2>
+      <div class="bg-white p-4 rounded shadow">
+        <ul>
+          <li class="flex items-center mb-4">
+            <span class="w-10 h-10 bg-green-500 text-white flex justify-center items-center rounded-full mr-4">📅</span>
+            <div>
+              <h3 class="font-semibold">Dr. Jane Doe</h3>
+              <p>Date: 2024-01-05</p>
+              <p>Time: 10:00 AM</p>
+            </div>
+          </li>
+          <li class="flex items-center mb-4">
+            <span class="w-10 h-10 bg-green-500 text-white flex justify-center items-center rounded-full mr-4">📅</span>
+            <div>
+              <h3 class="font-semibold">Dr. John Smith</h3>
+              <p>Date: 2024-01-10</p>
+              <p>Time: 3:00 PM</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white p-4 mt-8 text-center">
+    <p>© 2024 Healthcare App. Designed with care for you.</p>
+  </footer>
+</body>
+</html>
