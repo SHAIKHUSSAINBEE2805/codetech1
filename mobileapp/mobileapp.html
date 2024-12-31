@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile App Wireframe</title>
+  <style>
+    /* Basic reset for body */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    /* Container for the app layout */
+    .app {
+      width: 100%;
+      max-width: 375px; /* Simulating a mobile device width */
+      height: 667px; /* Simulating a mobile device height */
+      margin: 20px auto;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header section */
+    .header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      font-size: 18px;
+    }
+
+    /* Content section */
+    .content {
+      flex: 1;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Footer/Navigation Bar section */
+    .navbar {
+      display: flex;
+      justify-content: space-around;
+      background-color: #ddd;
+      padding: 10px 0;
+      border-top: 1px solid #ccc;
+    }
+
+    /* Navigation buttons */
+    .navbar button {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 8px 20px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    .navbar button:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <!-- Header Section -->
+    <div class="header">App Header</div>
+    
+    <!-- Content Section -->
+    <div class="content">
+      <p>Main Content Area</p>
+    </div>
+    
+    <!-- Footer/Navigation Bar Section -->
+    <div class="navbar">
+      <button>Home</button>
+      <button>Profile</button>
+      <button>Settings</button>
+    </div>
+  </div>
+</body>
+</html>
